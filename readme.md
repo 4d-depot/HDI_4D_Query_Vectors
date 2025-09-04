@@ -1,6 +1,6 @@
-# HDI_Get_Calendar
+# HDI_Get_Query_Vectors
 
-When working with modern applications, especially those involving artificial intelligence, natural language processing, or spatial data, vector math is key. That’s why 4D 20 R10 introduces a new object: 4D.Vector, designed to help developers store and compare data vectors with just a few lines of code.
+With the growing importance of vector-based search in AI applications such as semantic search, recommendation engines, and natural language processing, 4D introduces native support for vector queries in the query() function. This enhancement brings vector similarity comparisons directly into the language of DataClass.query() and EntitySelection.query().
 
 Find more information on the [blog post](https://blog.4d.com/).
 
