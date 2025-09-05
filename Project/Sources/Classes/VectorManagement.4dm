@@ -3,14 +3,9 @@
 Function calculate($prompt : Text; $apiKey : Text; $threshold : Real) : cs:C1710.EntitySelection
 	
 	//If no key is found, alert the user
-	//If ($apiKey="")
-	//ALERT("Please provide your OpenAI API key.")
-	//return {}
-	//End if 
-	
 	If ($apiKey="")
-		var $key:=JSON Parse:C1218(Document to text:C1236("c:\\tmp\\myOpenAI.json"))
-		$apiKey:=$key.key
+		ALERT:C41("Please provide your OpenAI API key.")
+		return {}
 	End if 
 	
 	//If trace mode is on, start 4D's TRACE debugger
